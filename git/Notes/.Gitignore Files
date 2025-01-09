@@ -1,0 +1,150 @@
+## .GitIgnore files 
+
+Guled@DESKTOP-9OO19FU MINGW64 ~/Work--1 (SC)
+$ git checkout main
+Switched to branch 'main'
+Your branch is behind 'origin/main' by 2 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+Guled@DESKTOP-9OO19FU MINGW64 ~/Work--1 (main)
+$ echo "Error: somehting went wrong" > error.log
+
+Guled@DESKTOP-9OO19FU MINGW64 ~/Work--1 (main)
+$ git status
+On branch main
+Your branch is behind 'origin/main' by 2 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        error.log
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Guled@DESKTOP-9OO19FU MINGW64 ~/Work--1 (main)
+$ git status
+On branch main
+Your branch is behind 'origin/main' by 2 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitingore
+        error.log
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Guled@DESKTOP-9OO19FU MINGW64 ~/Work--1 (main)
+$ git status
+On branch main
+Your branch is behind 'origin/main' by 2 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Guled@DESKTOP-9OO19FU MINGW64 ~/Work--1 (main)
+$ touch .env
+
+Guled@DESKTOP-9OO19FU MINGW64 ~/Work--1 (main)
+$ git status
+On branch main
+Your branch is behind 'origin/main' by 2 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Guled@DESKTOP-9OO19FU MINGW64 ~/Work--1 (main)
+
+$ ls -la
+
+total 24
+
+drwxr-xr-x 1 Guled 197609   0 Jan  7 14:29 ./
+
+drwxr-xr-x 1 Guled 197609   0 Jan  7 13:54 ../
+
+-rw-r--r-- 1 Guled 197609  12 Jan  7 14:29 .env
+
+drwxr-xr-x 1 Guled 197609   0 Jan  7 14:30 .git/
+
+-rw-r--r-- 1 Guled 197609  11 Jan  7 14:29 .gitignore
+
+-rw-r--r-- 1 Guled 197609  28 Jan  7 14:25 error.log
+
+-rw-r--r-- 1 Guled 197609 507 Jan  7 14:24 README.md
+
+Guled@DESKTOP-9OO19FU MINGW64 ~/Work--1 (main)
+$ .ds_store
+bash: .ds_store: command not found
+
+Guled@DESKTOP-9OO19FU MINGW64 ~/Work--1 (main)
+$ git commit -m "Add gitignore file to ignore sensitive files and log"
+On branch main
+Your branch is behind 'origin/main' by 2 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Guled@DESKTOP-9OO19FU MINGW64 ~/Work--1 (main)
+$ git push
+To https://github.com/Guled-Mahamud/Work-.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/Guled-Mahamud/Work-.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Guled@DESKTOP-9OO19FU MINGW64 ~/Work--1 (main)
+$ git push
+To https://github.com/Guled-Mahamud/Work-.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/Guled-Mahamud/Work-.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Guled@DESKTOP-9OO19FU MINGW64 ~/Work--1 (main)
+$ git push
+To https://github.com/Guled-Mahamud/Work-.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/Guled-Mahamud/Work-.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Guled@DESKTOP-9OO19FU MINGW64 ~/Work--1 (main)
+$ git pull
+remote: Enumerating objects: 1, done.
+remote: Counting objects: 100% (1/1), done.
+remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (1/1), 889 bytes | 111.00 KiB/s, done.
+From https://github.com/Guled-Mahamud/Work-
+   23d4f7b..cade55e  main       -> origin/main
+Updating 4b6442b..cade55e
+Fast-forward
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Guled@DESKTOP-9OO19FU MINGW64 ~/Work--1 (main)
+$ git push
+Everything up-to-date
+
+Guled@DESKTOP-9OO19FU MINGW64 ~/Work--1 (main)
