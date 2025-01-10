@@ -1,5 +1,5 @@
 
-### Welcome to my DevOps/Cloud learning journery
+### Welcome to my DevOps/Cloud learning journey
 
 These modules will equip me with essential skills for my IT career, including Linux basics and advanced concepts, Git for version control, and Azure for managing cloud infrastructure. I’ll learn Terraform for automating infrastructure, Kubernetes and Docker for containerization, CI/CD for seamless deployment pipelines, and networking fundamentals, building a solid foundation for a successful DevOps-focused career.
 
