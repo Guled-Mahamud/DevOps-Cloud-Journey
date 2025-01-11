@@ -1,7 +1,17 @@
 ## Bandit Game
 The OverTheWire Bandit game is an online learning tool that teaches basic Linux and hacking skills. You solve puzzles to move to the next level by using simple commands, like finding hidden files or reading text. It’s a fun way to learn how to use the command line and explore computers.
 Here are the commands I used to solve each level of the game.
+
 Level 1 
+
+ 1  pwd
+ 2  ls
+ 3  cat readme
+ 4  history
+
+password - ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+
+Level 2 
 
   1  pwd
   2  cd ..
@@ -12,14 +22,14 @@ Level 1
   7  cat ./-
 Password - ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 
-Level 2 
+Level 3 
 
  1  ls -la
  2  cat "spaces in this filename"
 
 Password - 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
 
-Level 3
+Level 4
 
 1  pwd
 2  ls -la
@@ -31,7 +41,7 @@ Level 3
 
 Password - 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 
-Level 4
+Level 5
 
 1  pwd
 2  ls -la
@@ -46,7 +56,7 @@ Level 4
 
 Password - 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 
-Level 5
+Level 6
 
 1  pwd
 2  ls -ls
@@ -58,7 +68,7 @@ Level 5
 
 Password - HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 
-Level 6 
+Level 7 
 
 1  pwd
 2  cd ..
@@ -78,7 +88,7 @@ Level 6
 
 Password - morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 
-Level 7
+Level 8
 
  1  pwd
  2  ls -la
@@ -109,7 +119,7 @@ Level 7
    
 Password - dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 
-Level 8 
+Level 9
 
 1  pwd
 2  ls -la
@@ -128,7 +138,7 @@ Level 8
 
 Password - 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
 
-Level 9 
+Level 10 
 
 1  pwd
 2  ls -la
@@ -150,7 +160,7 @@ Level 9
 
 Password - FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
 
-Level 10 
+Level 11 
 
 1  pwd
 2  ls -la
@@ -161,7 +171,7 @@ Level 10
 
 Password - dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
 
-Level 11
+Level 12
 
 1  pwd
 2  la -la
@@ -181,7 +191,7 @@ Level 11
 
 Password - 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
 
-Level 12
+Level 13
 
 1  pwd
 2  ls
@@ -245,7 +255,7 @@ Level 12
 
 Password - FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
 
-Level 13
+Level 14
 
 1 pwd
 2 ls
@@ -264,7 +274,7 @@ once logged in - bandit14@bandit:~$ cat /etc/bandit_pass/bandit14
 
 Password - MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
 
-Level 14
+Level 15
 
 1  history
 2  pwd
@@ -279,7 +289,7 @@ Level 14
 
 Password - 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
 
-Level 15
+Level 16
 
 1  pwd
 2  man nc
@@ -290,3 +300,149 @@ Level 15
 7 openssl s_client -connect localhost:30001
 
 Password - kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
+
+Level 17
+
+ pwd
+localhost
+nc localhost 3001
+netstat -a 3001
+nmap localhost 3001
+man connected
+man connected commands
+man man
+connect - 3001
+man nmap
+nmap 3100-3200
+nmap localhost 3100-3200
+nmap -a localhost -p 3100-3200
+nmap -A localhost -p 3100-3200
+nmap -A localhost -p 31000-32000
+man openssl
+man ss
+man ssh
+cat /etc/bandit_pass/bandit16
+man openssl
+openssl s_client -connect localhost:31790
+openssl s_client -connect localhost:31960
+openssl s_client -connect localhost:31518
+openssl s_client -connect localhost:31691
+openssl s_client -connect localhost:31790
+openssl s_client -connect localhost:31960
+openssl s_client -connect localhost:31518
+openssl s_client -connect localhost:30001
+echo "kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx" | openssl s_client -connect localhost:31790 -ign_eof
+vim /tmp/guled5/private.key
+echo "-----BEGIN RSA PRIVATE KEY-----
+MIIEogIBAAKCAQEAvmOkuifmMg6HL2YPIOjon6iWfbp7c3jx34YkYWqUH57SUdyJ
+imZzeyGC0gtZPGujUSxiJSWI/oTqexh+cAMTSMlOJf7+BrJObArnxd9Y7YT2bRPQ
+Ja6Lzb558YW3FZl87ORiO+rW4LCDCNd2lUvLE/GL2GWyuKN0K5iCd5TbtJzEkQTu
+DSt2mcNn4rhAL+JFr56o4T6z8WWAW18BR6yGrMq7Q/kALHYW3OekePQAzL0VUYbW
+JGTi65CxbCnzc/w4+mqQyvmzpWtMAzJTzAzQxNbkR2MBGySxDLrjg0LWN6sK7wNX
+x0YVztz/zbIkPjfkU1jHS+9EbVNj+D1XFOJuaQIDAQABAoIBABagpxpM1aoLWfvD
+KHcj10nqcoBc4oE11aFYQwik7xfW+24pRNuDE6SFthOar69jp5RlLwD1NhPx3iBl
+J9nOM8OJ0VToum43UOS8YxF8WwhXriYGnc1sskbwpXOUDc9uX4+UESzH22P29ovd
+d8WErY0gPxun8pbJLmxkAtWNhpMvfe0050vk9TL5wqbu9AlbssgTcCXkMQnPw9nC
+YNN6DDP2lbcBrvgT9YCNL6C+ZKufD52yOQ9qOkwFTEQpjtF4uNtJom+asvlpmS8A
+vLY9r60wYSvmZhNqBUrj7lyCtXMIu1kkd4w7F77k+DjHoAXyxcUp1DGL51sOmama
++TOWWgECgYEA8JtPxP0GRJ+IQkX262jM3dEIkza8ky5moIwUqYdsx0NxHgRRhORT
+8c8hAuRBb2G82so8vUHk/fur85OEfc9TncnCY2crpoqsghifKLxrLgtT+qDpfZnx
+SatLdt8GfQ85yA7hnWWJ2MxF3NaeSDm75Lsm+tBbAiyc9P2jGRNtMSkCgYEAypHd
+HCctNi/FwjulhttFx/rHYKhLidZDFYeiE/v45bN4yFm8x7R/b0iE7KaszX+Exdvt
+SghaTdcG0Knyw1bpJVyusavPzpaJMjdJ6tcFhVAbAjm7enCIvGCSx+X3l5SiWg0A
+R57hJglezIiVjv3aGwHwvlZvtszK6zV6oXFAu0ECgYAbjo46T4hyP5tJi93V5HDi
+Ttiek7xRVxUl+iU7rWkGAXFpMLFteQEsRr7PJ/lemmEY5eTDAFMLy9FL2m9oQWCg
+R8VdwSk8r9FGLS+9aKcV5PI/WEKlwgXinB3OhYimtiG2Cg5JCqIZFHxD6MjEGOiu
+L8ktHMPvodBwNsSBULpG0QKBgBAplTfC1HOnWiMGOU3KPwYWt0O6CdTkmJOmL8Ni
+blh9elyZ9FsGxsgtRBXRsqXuz7wtsQAgLHxbdLq/ZJQ7YfzOKU4ZxEnabvXnvWkU
+YOdjHdSOoKvDQNWu6ucyLRAWFuISeXw9a/9p7ftpxm0TSgyvmfLF2MIAEwyzRqaM
+77pBAoGAMmjmIJdjp+Ez8duyn3ieo36yrttF5NSsJLAbxFpdlc1gvtGCWW+9Cq0b
+dxviW8+TFVEBl1O4f7HVm6EpTscdDxU+bCXWkfjuRb7Dy9GOtt9JPsX8MBTakzh3
+vBgsyi/sN3RqRBcGU40fOoZyfAMT8s1m/uYv52O6IgeuZ/ujbjY=
+-----END RSA PRIVATE KEY-----
+Password - EReVavePLFHtFlFsjn3hyzMlvSuSAcRD
+cd home
+ls
+vim /tmp/guled5/private.key
+vim /home/guled5/private.key
+cd ..
+vim guled
+pwd
+cd /home/bandit16/
+vim guled
+cd ..
+ls
+cd tmp
+vim private.key
+cd ..
+ chmod 600 /tmp/private.key
+history
+ssh bandit17@localhost -i /tmp/private.key
+chmod 700 /tmp/private.key
+history
+ssh bandit17@localhost -i /tmp/private.key
+cd ..
+cd tmp
+ls
+cd ..
+chmod 700 tmp
+chmod 700 /tmp/private.key
+ssh bandit17@localhost -i /tmp/private.key
+chmod 600 /tmp/private.key
+ssh bandit17@localhost -i /tmp/private.key
+vim /tmp/guled0/private.key
+cd ..
+ls
+cd tmp
+vim /tmp/guled0/private.key
+cd guled0
+ls
+chmod 600 tmp
+mkdir private.key
+vim ssh.private
+cd ssh.private
+mkdir private_keys
+cd private_keys
+vm private_keys
+ssh -i ssh.private -p 2220 bandit17@localhost
+
+
+Level 18
+
+1  ls
+2  cat passwords.new
+3  cat /etc/bandit_pass/bandit17
+4  ls
+5  cat passwords.new
+6  pwd
+7  man diff
+8  diff passwords.old passwords.new
+9  mktemp
+10  cat passwords.old passwords.new > /tmp/tmp.asZqQcJmRV
+11  cat /tmp/tmp.asZqQcJmRV
+12  sort /tmp/tmp.asZqQcJmRV | uniq -u
+
+password - x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO
+
+Level 19
+
+1 ssh -t bandit18@bandit.labs.overthewire.org -p 2220 /bin/sh
+2 ssh -p 2220 bandit18@bandit.labs.overthewire.org "ls"
+3 ssh -p 2220 bandit18@bandit.labs.overthewire.org "cat readme"
+
+Password - cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
+
+level 20
+
+ 1  ls
+ 2  ./bandit20-do
+ 3  man id
+ 4  ./bandit20-do id
+ 5  whoami
+ 6  ./bandit20- whoami
+ 7  ./bandit20-do whoami
+ 8  ./bandit-do cat /etc/bandit_pass/bandit20
+ 9  ./bandit20-do cat /etc/bandit_pass/bandit20
+10  history
+
+Password - 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
