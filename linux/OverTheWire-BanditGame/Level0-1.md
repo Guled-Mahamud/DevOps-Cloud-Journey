@@ -113,13 +113,13 @@ The solution involves basic Linux commands, which are essential for interacting 
 
 **Why these commands matter**:
 
-SSH is the primary method for logging into remote servers.
+**SSH** is the primary method for logging into remote servers.
 
-ls helps you view the contents of directories, which is essential for locating files.
+**ls** helps you view the contents of directories, which is essential for locating files.
 
-cat allows you to read the contents of files, which is how you retrieve important information (like passwords).
+**cat** allows you to read the contents of files, which is how you retrieve important information (like passwords).
 
-exit helps you log out properly after completing your task.
+*exit** helps you log out properly after completing your task.
 
 
 
