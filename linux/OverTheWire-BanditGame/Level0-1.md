@@ -46,7 +46,7 @@ Once logged in, you will be in the **home directory** of bandit0.
 
 **How to Do It**:
 
-Run the command ####ls
+Run the command **ls**
 
 
 **Explanation**:
@@ -62,7 +62,7 @@ Run the command ####ls
 
 **How to Do It**:
 
-Run the command ####cat
+Run the command **cat**
 
 **Explanation**:
 
@@ -79,7 +79,7 @@ Run the command ####cat
 
 **How to Do It**:
 
-Run the command ####exit
+Run the command **exit**
 
 
 
@@ -91,14 +91,18 @@ Run the command ####exit
 
 
 
+
 ### Key commands for the password
 
 
 **ls**: List the files in your current directory.
+
 **cat**: View the contents of a file.
 
 
 **Password** :key: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+
+
 
 
 
