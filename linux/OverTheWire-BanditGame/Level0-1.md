@@ -1,5 +1,7 @@
 # :game_die: Bandit Level 0 → Level 1
 
+
+
 ## :loud_sound: Level Objective
 
 
@@ -7,15 +9,17 @@ Your task in this level is to log into the Bandit server, locate the **readme fi
 
 
 
+
 :pencil2: **Please beware of the following commands**
 
-**SSH**: SSH stands for Secure Shell. It is a protocol used to securely connect to a remote machine (another computer) over a network. This is how you’ll be accessing the Bandit server to complete the level. SSH ensures your data is encrypted, keeping your connection safe.
+**SSH**: A protocol to securely connect to another computer.
 
-**Bandit**: This is the username for the Bandit Level. You need to log in using this username, which is provided to you in the game.
+**Bandit**: Username for the game.
 
-**Bandit.labs.overthewire.org**: This is the address of the Bandit server. It’s like the "home" or location of the server where you need to connect. In this case, it’s hosted by .
+**Bandit.labs.overthewire.org**: Address of the Bandit server.
 
-**-p 2220**: The -p option specifies the port number. SSH normally works on port 22, but Bandit uses port 2220 instead. You need to specify this port so your connection knows where to go.
+**-p 2220**: Specifies the custom port used for the connection.
+
 
 
 
@@ -42,12 +46,12 @@ Once logged in, you will be in the **home directory** of bandit0.
 
 **How to Do It**:
 
-To list the files in your home directory, use the **ls** command.
+Run the command ####ls
 
 
 **Explanation**:
 
-ls: This is the command used to list files and directories in your current working directory.
+**ls**: This is the command used to list files and directories in your current working directory.
 
 
 ### Step 2: Read the Contents of the readme File
@@ -58,7 +62,7 @@ ls: This is the command used to list files and directories in your current worki
 
 **How to Do It**:
 
-Use the **cat** command to display the contents of the file. 
+Run the command ####cat
 
 **Explanation**:
 
@@ -75,8 +79,8 @@ Use the **cat** command to display the contents of the file.
 
 **How to Do It**:
 
-Simply use the **exit** command to log out from the server.
-Run:
+Run the command ####exit
+
 
 
 **Explanation**:
@@ -84,6 +88,18 @@ Run:
 **exit**: This command closes your current terminal session. It’s used to log out from a remote server or close the terminal.
 
 **Expected Outcome**: You will be logged out from the Bandit server, and you can now proceed to the next level.
+
+
+
+### Key commands for the password
+
+
+**ls**: List the files in your current directory.
+**cat**: View the contents of a file.
+
+
+**Password** :key: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+
 
 
 
@@ -101,7 +117,8 @@ cat allows you to read the contents of files, which is how you retrieve importan
 
 exit helps you log out properly after completing your task.
 
-**By completing these steps, you are learning to navigate and manage files in a Linux environment—skills that are crucial for a DevOps/Cloud Engineer role.**
+
+
 
 
 
