@@ -44,7 +44,8 @@ This project is a way for me to deepen my skills in DevOps while sharing my prog
 
 
 ## :wave: Follow My Journey
-Please feel free to review my scripts, lab work and notes. Let's connect and share knowledge if you have a strong interest in DevOps! In one of the most fascinating areas of technology today, this is a journey of learning, development, and knowledge building.
+Please feel free to review my scripts, lab work and notes.
+Let's connect and share knowledge :sunglasses:
 
 
 
