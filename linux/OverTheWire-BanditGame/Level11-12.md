@@ -5,7 +5,7 @@
 ## 🔊 Level Objective
 
 
-The password for the next level is stored in a file named data.txt. In this file, all lowercase (a-z) and uppercase (A-Z) letters have been rotated by 13 positions (ROT13). Your task is to decode the text to retrieve the password.
+The password for the next level is stored in a file named **data.txt**. In this file, all **lowercase (a-z)** and **uppercase (A-Z)** letters have been rotated by **13 positions (ROT13)**. Your task is to decode the text to retrieve the password.
 
 
 

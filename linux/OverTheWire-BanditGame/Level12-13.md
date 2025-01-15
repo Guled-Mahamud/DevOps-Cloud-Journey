@@ -37,95 +37,70 @@ The password for the next level is stored in a file named **data.txt**, which is
 ## 📃 Step-by-Step Solution
 
 
-### Step 1: Connect to the Bandit Server
-
-Start by connecting to the Bandit server using **SSH** with the **Bandit12** username and the password from the previous level.
+### Step 1: Prepare the Environment
 
 
-:white_check_mark: **Run the command: ssh bandit12@bandit.labs.overthewire.org -p 2220**
+First, navigate to your current directory to check your location using the **pwd** 
 
-When prompted, enter the password you retrieved from the previous level.
-
-
-
-### Step 2: Create a Temporary Working Directory
-
-To avoid clutter in the home directory, create a unique temporary directory under /tmp.
-
-:white_check_mark: **Run the command: mktemp -d**
+:white_check_mark: **Run the command: **pwd**
 
 
-**Expected Output**: A path to a temporary directory, e.g., /tmp/tmp.ABCD1234.
+This will display **/home/bandit12**, or whichever directory you're in.
+
+Next, create a working directory under **/tmp** using the mktemp command: **mktemp -d**
 
 
 
-### Step 3: Copy and Rename the Data File
+### Step 2: Copy the File
 
-Navigate to the temporary directory and copy the data.txt file there.
-
-:white_check_mark: **Run the commands:**
-
-**cd /tmp/tmp.ABCD1234**  # Replace with your temporary directory
-
-**cp ~/data.txt**      # Copy the file to your temporary directory
-
-**mv data.txt file.bin**  # Rename the file for clarity
-
-
-### Step 4: Convert the Hexdump to Binary
-
-Use the xxd command to revert the hexdump into a binary file.
-
-:white_check_mark: **Run the command:** xxd -r file.bin decoded.bin
+Copy the data.txt file into the temporary directory you just created:** cp /home/bandit12/data.txt /tmp/<your_tmp_directory>**
 
 
 
-### Step 5: Extract the File
-
-Determine the file type and extract it repeatedly until you reach the password.
-
-white_check_mark: **Run the command:** file decoded.bin
-
-The output will indicate the type of compression (e.g., **gzip, bzip2, tar, xz**). Extract the file using the corresponding tool, repeating the process as needed.
-
-Examples of extraction commands:
-
-**gzip**:
-
-mv decoded.bin file.gz  # Rename for clarity
-gunzip file.gz
-bzip2:
+### Step 3: Reverse the Hexdump
 
 
-mv decoded.bin file.bz2
-
-bunzip2 file.bz2
-
-tar:
+The file you copied is a hexdump. Use the xxd command to reverse it back into its original binary form: xxd -r /tmp/<your_tmp_directory>/data.txt > /tmp/<your_tmp_directory>/myfile
 
 
+### Step 4: Identify the Compression Format
 
-tar -xf decoded.bin
+Now that you have the original file, use the file command to determine what kind of compression has been applied: file /tmp/<your_tmp_directory>/myfile
 
-xz:
-
-
-mv decoded.bin file.xz
-
-unxz file.xz
+The file should tell you the compression format **(gzip, bzip2, tar, etc.).**
 
 
-**Repeat these steps until you uncover the final file containing the password.**
+### Step 5: Decompress the File
+
+Based on the file type, use the appropriate decompression tool:
 
 
-### Step 6: Read the Password
+If it's a .gz file, use gunzip: **mv /tmp/<your_tmp_directory>/myfile /tmp/<your_tmp_directory>/myfile.gz
 
-Once you reach a plain text file, use cat to read its contents.
-
-**:white_check_mark: Run the command**: **cat final_file.txt**  # Replace with the actual file name
+gunzip /tmp/<your_tmp_directory>/myfile.gz**
 
 
-The file will display the password for Level 13.
+If it's a .tar file, use tar: **tar -xf /tmp/<your_tmp_directory>/myfile.tar**
+
+
+If it's a .bz2 file, use bzip2: **bzip2 -d /tmp/<your_tmp_directory>/myfile.bz2**
+
+
+
+### Step 6: Repeat the Decompression Process
+
+After decompression, run the file command again on the resulting file: **file /tmp/<your_tmp_directory>/myfile3**
+
+Keep repeating the decompression process **(gzip, tar, bzip2)** until the file is recognized as an ASCII text file.
+
+
+
+### Step 7: Read the File and Retrieve the Password
+
+Once the file is recognized as **ASCII text**, use cat to read the file and retrieve the password: **cat /tmp/<your_tmp_directory>/myfile3**
+
+
+The password will be displayed.
 
 
 
