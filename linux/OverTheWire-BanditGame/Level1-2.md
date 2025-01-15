@@ -1,12 +1,13 @@
-*🎲 Bandit Level 1 → Level 2
+# 🎲 Bandit Level 1 → Level 2
 
 
 
-##🔊 Level Objective
+## 🔊 Level Objective
 Your task in this level is to locate a file named - in the home directory of the Bandit1 user. This file contains the password for the next level, Bandit2.
 
 
-###✏️ Commands You’ll Need
+
+### ✏️ Commands You’ll Need
 
 **SSH**: Securely connect to the Bandit server.
 **ls**: List files in a directory.
@@ -20,10 +21,10 @@ Your task in this level is to locate a file named - in the home directory of the
 
 
 
-##📃 Step-by-Step Solution
+## 📃 Step-by-Step Solution
 
 
-###Step 1: Connect to the Bandit Server
+### Step 1: Connect to the Bandit Server
 
 To start, connect to the Bandit server using SSH with the Bandit1 username and the password from the previous level.
 
@@ -34,7 +35,8 @@ When prompted, enter the password you retrieved from previous level
 
 
 
-###Step 2: List Files in the Directory
+### Step 2: List Files in the Directory
+
 
 After logging in, check the files in the home directory to locate the file named -.
 
@@ -46,6 +48,8 @@ Run the command: **ls**
 
 
 ### Step 3: Read the Contents of the File Named -
+
+
 Files with special names like - can cause confusion because - is often treated as a command option. To handle this, use a workaround to specify the file explicitly.
 
 Run the command: **cat ./-**
@@ -60,13 +64,14 @@ The output will display the password for Level 2.
 🔑 Password for Level 2: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 
 
-###Step 4: Log Out
+
+### Step 4: Log Out
 
 Once you have the password, log out of the server to end your session.
 
 
 
-###Key Commands Recap
+### Key Commands Recap
 
 **SSH**: Connect to the server securely.
 
@@ -75,6 +80,8 @@ Once you have the password, log out of the server to end your session.
 **cat** ./-: Read a file with a tricky name like -.
 
 **exit**: Log out of the server after completing the task.
+
+
 
 
 🔎 **Thought Process**
