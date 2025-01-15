@@ -74,15 +74,15 @@ Once you have the password, log out of the server to end your session.
 
 
 
-### Key Commands Recap
+### :round_pushpin:Key Commands Recap
 
-**SSH**: Connect to the server securely.
+:one:**SSH**: Connect to the server securely.
 
-**ls**: List files in the directory to locate the target file.
+:two:**ls**: List files in the directory to locate the target file.
 
-**cat** ./-: Read a file with a tricky name like -.
+:three:**cat** ./-: Read a file with a tricky name like -.
 
-**exit**: Log out of the server after completing the task.
+🔑 Password for Level 2: **ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If**
 
 
 

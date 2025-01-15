@@ -76,19 +76,19 @@ Run the command: **exit**
 
 exit: Ends your terminal session and disconnects from the server.
 
-🔑 Password for Level 3: **263JGJPfgU6LtdEvgfWU1XP5yac29mFx**
+
 
 
 
 ### :round_pushpin: Key Commands Recap
 
-**SSH**: Connect to the server securely.
+:one:**SSH**: Connect to the server securely.
 
-**ls**: List files in the directory to locate the target file.
+:two:**ls**: List files in the directory to locate the target file.
 
-**cat "filename" or cat filename\ with\ spaces**: Read files with spaces in their names.
+:three:**cat "filename" or cat filename\ with\ spaces**: Read files with spaces in their names.
 
-**exit**: Log out of the server after completing the task.
+🔑 Password for Level 3: **263JGJPfgU6LtdEvgfWU1XP5yac29mFx**
 
 
 ###🔎 Thought Process

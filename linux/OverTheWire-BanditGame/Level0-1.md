@@ -1,8 +1,8 @@
-# game_die: Bandit Level 0 → Level 1 
+# 🎲 Bandit Level 0 → Level 1
 
 
 
-##:loud_sound: Level Objective
+## :loud_sound: Level Objective
 
 
 Your task in this level is to log into the Bandit server, locate the **readme file** in the **home directory**, and retrieve the password for the next level **Bandit1**.
@@ -86,12 +86,12 @@ Run the command **exit**
 
 
 
-### :round_pushpin: Key commands for the password
+## :round_pushpin: Key commands for the password
 
 
-**ls**: List the files in your current directory.
+:one:**ls**: List the files in your current directory.
 
-**cat**: View the contents of a file.
+:two:**cat**: View the contents of a file.
 
 
 **Password** :key: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
@@ -103,9 +103,10 @@ Run the command **exit**
 
 ### :mag_right: Thought Process:
 
-The solution involves basic Linux commands, which are essential for interacting with remote servers. SSH, ls, cat, and exit are foundational tools that you'll use often in DevOps and cloud environments.
+The solution involves basic Linux commands, which are essential for interacting with remote servers. **SSH, ls, cat,** and **exit** are foundational tools that you'll use often in DevOps and cloud environments.
 
- **Why these commands matter**:
+
+ ### **Why these commands matter**:
 
 **SSH** is the primary method for logging into remote servers.
 
