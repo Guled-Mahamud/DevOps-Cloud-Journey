@@ -50,7 +50,7 @@ After logging in, check the files in the home directory.
 
 **ls**: Lists all files in the current directory. You should see a file named spaces in this filename.
 
-
+You should see the file **spaces in this filename.**
 
 
 ### Step 3: Read the Contents of the File with Spaces in Its Name -

@@ -54,52 +54,70 @@ Once connected, navigate to the **inhere** directory where the files are stored.
 
 
 
-### 3: Identify the Human-Readable File
+### Step 3: List All Files with Details
 
-Use the file command to check the type of each file in the **inhere** directory.
+Use the **ls -l** command to list the files in the **inhere** directory with detailed information.
 
-:white_check_mark: **Run the command: file * ***
-Explanation:
+:white_check_mark:**Command: ls -l**
 
-**file * ***: Analyzes all files in the current directory (* means all files) and displays their types.
+**Output**:
 
-Look for a file type such as **"ASCII text,"** as this indicates it is human-readable.
-
-**Expected Output**: You will see a list of files with their types. Locate the one marked as **ASCII** text or similar.
+-rwxr-xr-x 1 bandit4 bandit4 12345 Jun 17 14:32 -file01 -rwxr-xr-x 1 bandit4 bandit4 23456 Jun 17 14:33 -file02 -rwxr-xr-x 1 bandit4 bandit4 34567 Jun 17 14:34 -file03 ...
 
 
 
-### Step 4: Read the Human-Readable File
+### Step 4: Use the find Command to Locate the Human-Readable File
 
-Once you have identified the **human-readable file**, use the **cat** command to read its contents.
+The key here is to find the **human-readable** (non-executable) file. To do this, use the find command.
 
-:white_check_mark:**Run the command: cat ./-file07** 
+**Run the command: find . ! -executable -exec file {} +**
+
+
+**Explanation:** This command searches for files that are not executable and then uses the file command to determine the type of each file. The + allows the find command to run the file command on multiple files in one go.
+
+
+**Output:**
+
+./-file08: data ./-file02: data ./-file09: data ./-file01: data ./-file00: data ./-file05: data **./-file07: ASCII text** ./-file03: data ./-file06: data ./-file04: data
+
+
+Here, the file **-file07** is identified as **ASCII text**, which indicates that it is a **human-readable file**, unlike the others which are of type data.
+
+
+
+### Step 5: Display the Contents of the Human-Readable File
+
+Use the **cat** command to display the contents of **-file07**, the human-readable file.
+
+:white_check_mark:**Run the command: cat ./-file07**
 
 **Expected Output**: The content of the file will display the password for Level 5.
 
 
+🔑 Password for Level 5: **4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw** 
 
-### Step 5: Log Out
+
+
+### Step 6: Log Out
 
 After retrieving the password, log out from the server.
 
-**Run the command: exit**
+:white_check_mark: **Run the command: exit**
 
 
 
 ### :round_pushpin: Key Commands Recap
 
 
-:one: cd inhere: Navigate to the inhere directory.
+:one: **cd inhere**: Navigate to the inhere directory.
 
-:two: **file ***: Analyze files in the directory to determine their types.
+:two: **. ! -executable -exec file {} +**: Analyze files in the directory to determine their types.
 
 :three:**cat ./** : Read the contents of the human-readable file.
 
 :four: **exit**: Log out from the Bandit server.
 
 
-🔑 Password for Level 5: **4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw**
 
 
 

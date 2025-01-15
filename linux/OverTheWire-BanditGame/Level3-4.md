@@ -53,7 +53,7 @@ After logging in, you need to locate the hidden file in the home directory. To d
 **Explanation**: **ls -a**: Lists all files in the directory, including hidden files (those starting with a .).
 
 
-You should see a file named .hidden in the output.
+You should see a file named .hidden in the output **...Hiding-From-You**.
 
 
 
@@ -62,7 +62,7 @@ You should see a file named .hidden in the output.
 
 Now that you’ve found the hidden file, use the cat command to view its contents.
 
-:white_check_mark: **Run the command: cat .hidden**
+:white_check_mark: **Run the command: cat ...Hiding-From-You**
 
 **Explanation**: **cat** Displays the contents of a file.
 
