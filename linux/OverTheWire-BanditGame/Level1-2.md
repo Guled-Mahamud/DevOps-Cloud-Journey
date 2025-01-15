@@ -31,7 +31,7 @@ Your task in this level is to locate a file named - in the home directory of the
 
 To start, connect to the Bandit server using SSH with the Bandit1 username and the password from the previous level.
 
-Run the command: **ssh bandit1@bandit.labs.overthewire.org -p 2220**
+### Run the command: **ssh bandit1@bandit.labs.overthewire.org -p 2220**
 
 
 When prompted, enter the password you retrieved from previous level
@@ -43,7 +43,7 @@ When prompted, enter the password you retrieved from previous level
 
 After logging in, check the files in the home directory to locate the file named -.
 
-Run the command: **ls**
+### Run the command: **ls**
 
 
 **ls**: Lists all files in the current directory. You should see a file named -.
@@ -55,16 +55,16 @@ Run the command: **ls**
 
 Files with special names like - can cause confusion because - is often treated as a command option. To handle this, use a workaround to specify the file explicitly.
 
-Run the command: **cat ./-**
+### Run the command: **cat ./-**
 
 
 **cat**: Reads and displays the contents of a file.
 
-**./-**: The **./** tells the system to treat **-**as a file in the current directory, not as a command option.
+**./-**: The **./** tells the system to treat - as a file in the current directory, not as a command option.
 
 The output will display the password for Level 2.
 
-🔑 Password for Level 2: **ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If**
+
 
 
 

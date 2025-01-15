@@ -5,7 +5,7 @@
 ## 🔊 Level Objective
 
 
-Your goal in this level is to locate a file named spaces in this filename in the home directory of the Bandit2 user. This file contains the password for the next level, Bandit3.
+Your goal in this level is to locate a file named **spaces in this filename** in the home directory of the **Bandit2** user. This file contains the password for the next level, Bandit3.
 
 
 
@@ -58,7 +58,7 @@ Run the command: **ls**
 
 To read a file with spaces in its name, you need to handle it carefully by enclosing the name in quotes or using escape characters.
 
-Command (Option 1): **cat "spaces in this filename"** 
+Run the command: **cat "spaces in this filename"** 
 
 **Explanation**: Enclosing the file name in double quotes (") tells the terminal to treat the entire name as one file.
 
