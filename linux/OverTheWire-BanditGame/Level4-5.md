@@ -39,7 +39,7 @@ Start by connecting to the Bandit server using **SSH** with the **Bandit4** user
 
 :white_check_mark:**Run the command:ssh bandit4@bandit.labs.overthewire.org -p 2220**
 
-When prompted, enter the password you retrieved from Level 3.
+When prompted, enter the password you retrieved from the previous level.
 
 
 
@@ -50,7 +50,7 @@ Once connected, navigate to the **inhere** directory where the files are stored.
 
 :white_check_mark:**Run the command: cd inhere**
 
-**Explanation**: **cd inhere**: Changes the current directory to inhere.
+**Explanation**: **cd inhere** Changes the current directory to inhere.
 
 
 
@@ -70,7 +70,7 @@ Use the **ls -l** command to list the files in the **inhere** directory with det
 
 The key here is to find the **human-readable** (non-executable) file. To do this, use the find command.
 
-**Run the command: find . ! -executable -exec file {} +**
+:white_check_mark:**Run the command: find . ! -executable -exec file {} +**
 
 
 **Explanation:** This command searches for files that are not executable and then uses the file command to determine the type of each file. The + allows the find command to run the file command on multiple files in one go.
@@ -106,7 +106,9 @@ After retrieving the password, log out from the server.
 
 
 
+
 ### :round_pushpin: Key Commands Recap
+
 
 
 :one: **cd inhere**: Navigate to the inhere directory.
