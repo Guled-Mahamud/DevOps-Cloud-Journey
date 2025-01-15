@@ -86,8 +86,10 @@ Once you have the password, log out of the server to end your session.
 
 🔎 **Thought Process**
 
-This level introduces a common challenge: dealing with files that have unusual names. By using ./, you ensure the file is treated properly.
-These basic Linux commands—ls, cat, and exit—are foundational skills for working in terminal environments and solving future levels.
+This level introduces a common challenge: dealing with files that have unusual names. By using **./**, you ensure the file is treated properly.
+
+
+These basic Linux commands **—ls**, **cat**, and **exit** are foundational skills for working in terminal environments and solving future levels.
 
 
 
