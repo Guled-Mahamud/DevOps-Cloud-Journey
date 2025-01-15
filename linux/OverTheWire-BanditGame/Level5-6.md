@@ -9,9 +9,9 @@ Your goal in this level is to locate a file within the **inhere** directory that
 
 ### ✏️ Commands You’ll Need
 
-:asterisk :**SSH**: Securely connect to the Bandit server.
+:asterisk: **SSH**: Securely connect to the Bandit server.
 
-:asterisk :**ls**: List files in a directory.
+:asterisk: **ls**: List files in a directory.
 
 :asterisk: **cd**: Change directories.
 
@@ -46,7 +46,7 @@ After logging in, check the files and directories in the home directory. You wil
 
 :white_check_mark: **Run the command: ls**
 
-**Explanation**: **ls**: Lists all files and directories in the current directory.
+**Explanation**: **ls** Lists all files and directories in the current directory.
 
 
 

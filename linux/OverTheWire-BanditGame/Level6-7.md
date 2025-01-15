@@ -58,9 +58,7 @@ To locate the file with the specified properties, use the find command.
 **2>/dev/null**: Suppresses permission-denied error messages to clean up the output.
 
 
-**Expected Output**:
-
-**/var/lib/dpkg/info/bandit7.password**
+**Expected Output**:  **/var/lib/dpkg/info/bandit7.password**
 
 
 ### Step 3: Read the Contents of the File
