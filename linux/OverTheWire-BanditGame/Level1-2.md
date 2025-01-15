@@ -3,7 +3,7 @@
 
 
 ## 🔊 Level Objective
-Your task in this level is to locate a file named - in the home directory of the Bandit1 user. This file contains the password for the next level, Bandit2.
+Your task in this level is to locate a file named - in the home directory of the **Bandit1** user. This file contains the password for the next level, Bandit2.
 
 
 

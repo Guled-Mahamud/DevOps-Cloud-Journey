@@ -114,7 +114,7 @@ The solution involves basic Linux commands, which are essential for interacting 
 
 **cat** allows you to read the contents of files, which is how you retrieve important information (like passwords).
 
-*exit** helps you log out properly after completing your task.
+**exit** helps you log out properly after completing your task.
 
 
 
