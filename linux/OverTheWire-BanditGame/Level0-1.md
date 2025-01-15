@@ -12,13 +12,13 @@ Your task in this level is to log into the Bandit server, locate the **readme fi
 
 :pencil2: **Please beware of the following commands**
 
-**SSH**: A protocol to securely connect to another computer.
+:asterisk:**SSH**: A protocol to securely connect to another computer.
 
-**Bandit**: Username for the game.
+:asterisk:**Bandit**: Username for the game.
 
-**Bandit.labs.overthewire.org**: Address of the Bandit server.
+:asterisk:**Bandit.labs.overthewire.org**: Address of the Bandit server.
 
-**-p 2220**: Specifies the custom port used for the connection.
+:asterisk:**-p 2220**: Specifies the custom port used for the connection.
 
 
 
@@ -45,7 +45,7 @@ Once logged in, you will be in the **home directory** of bandit0.
 
 **How to Do It**:
 
-**Run the command: ls**
+:white_check_mark:**Run the command: ls**
 
 
 **ls**: This is the command used to list files and directories in your current working directory.
@@ -59,7 +59,7 @@ Once logged in, you will be in the **home directory** of bandit0.
 
 **How to Do It**:
 
-**Run the command: cat**
+:white_check_mark:**Run the command: cat**
 
 
 **cat**: This command is used to display the contents of a file. It stands for "concatenate" and is commonly used to view text files in Linux.
@@ -75,7 +75,7 @@ Once logged in, you will be in the **home directory** of bandit0.
 
 **How to Do It**:
 
-**Run the command: exit**
+:white_check_mark:**Run the command: exit**
 
 
 
@@ -94,7 +94,7 @@ Once logged in, you will be in the **home directory** of bandit0.
 :two:**cat**: View the contents of a file.
 
 
-🔑**Password** :key: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+🔑Password : **ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If**
 
 
 
@@ -103,18 +103,20 @@ Once logged in, you will be in the **home directory** of bandit0.
 
 ### :mag_right: Thought Process:
 
-The solution involves basic Linux commands, which are essential for interacting with remote servers. **SSH, ls, cat,** and **exit** are foundational tools that you'll use often in DevOps and cloud environments.
+The solution involves basic Linux commands, which are essential for interacting with remote servers. 
 
 
- ### **Why these commands matter**:
+**SSH, ls, cat,** and **exit** are foundational tools that you'll use often in DevOps and cloud environments.
 
-**SSH** is the primary method for logging into remote servers.
 
-**ls** helps you view the contents of directories, which is essential for locating files.
 
-**cat** allows you to read the contents of files, which is how you retrieve important information (like passwords).
+:arrow_right:**SSH** is the primary method for logging into remote servers.
 
-**exit** helps you log out properly after completing your task.
+:arrow_right:**ls** helps you view the contents of directories, which is essential for locating files.
+
+:arrow_right:**cat** allows you to read the contents of files, which is how you retrieve important information (like passwords).
+
+:arrow_right:**exit** helps you log out properly after completing your task.
 
 
 
