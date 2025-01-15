@@ -10,8 +10,11 @@ Your task in this level is to locate a file named - in the home directory of the
 ### ✏️ Commands You’ll Need
 
 **SSH**: Securely connect to the Bandit server.
+
 **ls**: List files in a directory.
+
 **cat**: View the contents of a file.
+
 **exit**: Log out from the server.
 
 
@@ -57,11 +60,11 @@ Run the command: **cat ./-**
 
 **cat**: Reads and displays the contents of a file.
 
-**./-**: The ./ tells the system to treat - as a file in the current directory, not as a command option.
+**./-**: The **./** tells the system to treat **-**as a file in the current directory, not as a command option.
 
 The output will display the password for Level 2.
 
-🔑 Password for Level 2: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+🔑 Password for Level 2: **ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If**
 
 
 

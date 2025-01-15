@@ -1,8 +1,8 @@
-# :game_die: Bandit Level 0 → Level 1
+# game_die: Bandit Level 0 → Level 1 
 
 
 
-## :loud_sound: Level Objective
+##:loud_sound: Level Objective
 
 
 Your task in this level is to log into the Bandit server, locate the **readme file** in the **home directory**, and retrieve the password for the next level **Bandit1**.
@@ -30,8 +30,7 @@ Your task in this level is to log into the Bandit server, locate the **readme fi
 
 
 
-
-##  :page_with_curl: Step-by-Step Solution
+## :page_with_curl: Step-by-Step Solution 
 
 
 Once logged in, you will be in the **home directory** of bandit0.
@@ -49,8 +48,6 @@ Once logged in, you will be in the **home directory** of bandit0.
 Run the command **ls**
 
 
-**Explanation**:
-
 **ls**: This is the command used to list files and directories in your current working directory.
 
 
@@ -64,7 +61,6 @@ Run the command **ls**
 
 Run the command **cat**
 
-**Explanation**:
 
 **cat**: This command is used to display the contents of a file. It stands for "concatenate" and is commonly used to view text files in Linux.
 
@@ -83,8 +79,6 @@ Run the command **exit**
 
 
 
-**Explanation**:
-
 **exit**: This command closes your current terminal session. It’s used to log out from a remote server or close the terminal.
 
 **Expected Outcome**: You will be logged out from the Bandit server, and you can now proceed to the next level.
@@ -92,7 +86,7 @@ Run the command **exit**
 
 
 
-### Key commands for the password
+### :round_pushpin: Key commands for the password
 
 
 **ls**: List the files in your current directory.
@@ -111,7 +105,7 @@ Run the command **exit**
 
 The solution involves basic Linux commands, which are essential for interacting with remote servers. SSH, ls, cat, and exit are foundational tools that you'll use often in DevOps and cloud environments.
 
-**Why these commands matter**:
+ **Why these commands matter**:
 
 **SSH** is the primary method for logging into remote servers.
 
