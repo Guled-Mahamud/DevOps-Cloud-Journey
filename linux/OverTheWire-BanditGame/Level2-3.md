@@ -53,7 +53,7 @@ Run the command: **ls**
 
 
 
-### Step 3: Read the Contents of the File with Spaces in Its Name
+### Step 3: Read the Contents of the File with Spaces in Its Name -
 
 
 To read a file with spaces in its name, you need to handle it carefully by enclosing the name in quotes or using escape characters.
@@ -74,7 +74,6 @@ After retrieving the password, end your session by logging out.
 Run the command: **exit**
 
 
-exit: Ends your terminal session and disconnects from the server.
 
 
 
@@ -91,7 +90,7 @@ exit: Ends your terminal session and disconnects from the server.
 🔑 Password for Level 3: **263JGJPfgU6LtdEvgfWU1XP5yac29mFx**
 
 
-###🔎 Thought Process
+### 🔎 Thought Process
 
 This level teaches you how to handle file names with spaces. By using quotes or escape characters, you can interact with such files smoothly. 
 
