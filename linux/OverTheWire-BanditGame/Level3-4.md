@@ -7,7 +7,7 @@
 
 Your goal in this level is to locate a hidden file named .hidden in the home directory of the Bandit3 user. This file contains the password for the next level, Bandit4.
 
-✏️ ###Commands You’ll Need
+### ✏️Commands You’ll Need
 
 
 :asterisk:**SSH**: Securely connect to the Bandit server.
@@ -47,7 +47,7 @@ When prompted, enter the password you retrieved from the previous level.
 After logging in, you need to locate the hidden file in the home directory. To do this, you must list all files, including hidden ones.
 
 
-:white_check_mark: **Run the command:ls -a**
+:white_check_mark: **Run the command: ls -a**
 
 
 **Explanation**: **ls -a**: Lists all files in the directory, including hidden files (those starting with a .).
@@ -92,7 +92,7 @@ After retrieving the password, log out of the server to complete this level.
 :three: **cat .hidden**: Read the contents of the hidden file.
 
 
-🔑 Password for Level 4: **2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ*
+🔑 Password for Level 4: **2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ**
 
 
 
