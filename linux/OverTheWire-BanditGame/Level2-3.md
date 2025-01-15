@@ -34,7 +34,7 @@ Your goal in this level is to locate a file named **spaces in this filename** in
 
 Start by connecting to the Bandit server using SSH with the Bandit2 username and the password from the previous level.
 
-Run the command:**ssh bandit2@bandit.labs.overthewire.org -p 2220**
+**Run the command: ssh bandit2@bandit.labs.overthewire.org -p 2220**
 
 When prompted, enter the password you retrieved from previous level
 
@@ -45,7 +45,7 @@ When prompted, enter the password you retrieved from previous level
 
 After logging in, check the files in the home directory.
 
-Run the command: **ls**
+**Run the command: ls**
 
 
 **ls**: Lists all files in the current directory. You should see a file named spaces in this filename.
@@ -58,7 +58,7 @@ Run the command: **ls**
 
 To read a file with spaces in its name, you need to handle it carefully by enclosing the name in quotes or using escape characters.
 
-Run the command: **cat "spaces in this filename"** 
+**Run the command: cat "spaces in this filename"** 
 
 **Explanation**: Enclosing the file name in double quotes (") tells the terminal to treat the entire name as one file.
 
@@ -71,7 +71,7 @@ The output will display the password for Level 3.
 
 After retrieving the password, end your session by logging out.
 
-Run the command: **exit**
+**Run the command: exit**
 
 
 

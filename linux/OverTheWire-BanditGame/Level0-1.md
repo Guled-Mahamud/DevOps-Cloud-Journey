@@ -45,7 +45,7 @@ Once logged in, you will be in the **home directory** of bandit0.
 
 **How to Do It**:
 
-Run the command **ls**
+**Run the command: ls**
 
 
 **ls**: This is the command used to list files and directories in your current working directory.
@@ -59,7 +59,7 @@ Run the command **ls**
 
 **How to Do It**:
 
-Run the command **cat**
+**Run the command: cat**
 
 
 **cat**: This command is used to display the contents of a file. It stands for "concatenate" and is commonly used to view text files in Linux.
@@ -75,7 +75,7 @@ Run the command **cat**
 
 **How to Do It**:
 
-Run the command **exit**
+**Run the command: exit**
 
 
 
@@ -94,7 +94,7 @@ Run the command **exit**
 :two:**cat**: View the contents of a file.
 
 
-**Password** :key: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+🔑**Password** :key: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 
 
 
