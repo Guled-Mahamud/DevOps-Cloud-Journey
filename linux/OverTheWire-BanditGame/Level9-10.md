@@ -62,9 +62,9 @@ The password is preceded by several = characters. Use the grep command to search
 
 **Explanation**:
 
-**strings data.txt**: Extracts readable text.
-**|:** Pipes the output of strings into the next command.
-**grep '='**: Filters the output to show only lines containing =.
+- **strings data.txt**: Extracts readable text.
+- **|:** Pipes the output of strings into the next command.
+- **grep '='**: Filters the output to show only lines containing =.
 
 
 **Expected Output**:

@@ -46,7 +46,9 @@ Use the **grep** command to search for the word **millionth** in the file data.t
 
 :white_check_mark: **Run the command: grep "millionth" data.txt**
 
-**Explanation**: **grep "millionth" data.txt**: Searches for the word millionth in the file data.txt and displays the line where it is found.
+**Explanation**: 
+
+- **grep "millionth" data.txt**: Searches for the word millionth in the file data.txt and displays the line where it is found.
 
 
 **Expected Output**: The output will display a line that contains the word millionth and the password for the next level, like this:

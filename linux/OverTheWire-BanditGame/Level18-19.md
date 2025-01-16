@@ -50,9 +50,9 @@ To bypass the **.bashrc script**, you can instruct **SSH** to run a specific com
 
 **Explanation**:
 
-**ssh bandit18@bandit.labs.overthewire.org -p 2220**: Connect to the Bandit18 server.
+- **ssh bandit18@bandit.labs.overthewire.org -p 2220**: Connect to the Bandit18 server.
 
-**cat readme**: Instead of starting an interactive shell, the SSH session immediately runs the cat readme command to display the content of the readme file.
+- **cat readme**: Instead of starting an interactive shell, the SSH session immediately runs the cat readme command to display the content of the readme file.
 
 **Expected Output**: The password for Level 19 will be displayed in the terminal.
 

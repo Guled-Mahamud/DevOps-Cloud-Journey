@@ -50,7 +50,9 @@ After logging in, you need to locate the hidden file in the home directory. To d
 :white_check_mark: **Run the command: ls -a**
 
 
-**Explanation**: **ls -a**: Lists all files in the directory, including hidden files (those starting with a .).
+**Explanation**: 
+
+- **ls -a**: Lists all files in the directory, including hidden files (those starting with a .).
 
 
 You should see a file named **...Hiding-From-You** in the output .

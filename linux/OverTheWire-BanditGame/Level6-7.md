@@ -47,15 +47,15 @@ To locate the file with the specified properties, use the find command.
 
 **Explanation**:
 
-**find /**: Searches the entire file system, starting at the root directory /.
+- **find /**: Searches the entire file system, starting at the root directory /.
 
-**-user bandit7**: Looks for files owned by the user bandit7.
+- **-user bandit7**: Looks for files owned by the user bandit7.
 
-**-group bandit6**: Filters files owned by the group bandit6.
+- **-group bandit6**: Filters files owned by the group bandit6.
 
-**-size 33c**: Filters files that are exactly 33 bytes in size (c indicates bytes).
+- **-size 33c**: Filters files that are exactly 33 bytes in size (c indicates bytes).
 
-**2>/dev/null**: Suppresses permission-denied error messages to clean up the output.
+- **2>/dev/null**: Suppresses permission-denied error messages to clean up the output.
 
 
 **Expected Output**:  **/var/lib/dpkg/info/bandit7.password**

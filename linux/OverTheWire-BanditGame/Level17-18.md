@@ -64,9 +64,9 @@ Use the diff command to compare the two files and locate the changed line.
 
 **Explanation**:
 
-**diff**: Compares two files line by line and highlights differences.
+- **diff**: Compares two files line by line and highlights differences.
 
-**passwords.old passwords.new**: Specifies the files to compare.
+- **passwords.old passwords.new**: Specifies the files to compare.
 
 
 The output will show the line that is different in passwords.new. This line contains the password for Bandit18.

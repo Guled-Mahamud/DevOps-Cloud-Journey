@@ -46,7 +46,9 @@ After logging in, check the files and directories in the home directory. You wil
 
 :white_check_mark: **Run the command: ls**
 
-**Explanation**: **ls** Lists all files and directories in the current directory.
+**Explanation**:
+
+- **ls** Lists all files and directories in the current directory.
 
 
 
@@ -57,7 +59,9 @@ Move into the inhere directory to search for the target file.
 
 :white_check_mark: **Run the command: cd inhere**
 
-**Explanation**: **cd** Changes your current directory to the specified one.
+**Explanation**: 
+
+- **cd** Changes your current directory to the specified one.
 
 
 ### Step 4: Search for the Target File
@@ -68,13 +72,13 @@ Use the find command to search for a file with the specified characteristics: 10
 
 **Explanation:**
 
-**find .**: Searches in the current directory and subdirectories.
+- **find .**: Searches in the current directory and subdirectories.
 
-**-type f**: Limits the search to files only.
+- **-type f**: Limits the search to files only.
 
-**-size 1033c**: Finds files that are exactly 1033 bytes in size (c = bytes).
+- **-size 1033c**: Finds files that are exactly 1033 bytes in size (c = bytes).
 
-**! -executable**: Excludes executable files.
+- **! -executable**: Excludes executable files.
 
 
 The output will show the path of the file that matches these criteria.

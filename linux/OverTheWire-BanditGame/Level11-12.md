@@ -61,13 +61,13 @@ To decode the text, use the tr command to perform **ROT13** transformation. **RO
 
 **Explanation:**
 
-**cat data.txt** Displays the content of the file.
+- **cat data.txt** Displays the content of the file.
 
-**tr 'A-Za-z' 'N-ZA-Mn-za-m'** Translates each letter using ROT13.
+- **tr 'A-Za-z' 'N-ZA-Mn-za-m'** Translates each letter using ROT13.
 
-**'A-Za-z'**: Specifies all uppercase (A-Z) and lowercase (a-z) letters.
+- **'A-Za-z'**: Specifies all uppercase (A-Z) and lowercase (a-z) letters.
 
-**'N-ZA-Mn-za-m'**: Maps each letter to its ROT13 equivalent.
+- **'N-ZA-Mn-za-m'**: Maps each letter to its ROT13 equivalent.
 
 
 **Expected Output**:

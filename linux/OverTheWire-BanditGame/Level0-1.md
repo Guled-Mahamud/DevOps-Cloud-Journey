@@ -39,39 +39,39 @@ Once logged in, you will be in the **home directory** of bandit0.
 
 ### Step 1: List the Files in the Home Directory
 
-**Objective**: After logging in, your goal is to see which files are available in your current directory (home directory).
+- **Objective**: After logging in, your goal is to see which files are available in your current directory (home directory).
 
-**Why This Step is Important**: Bandit Level 0 contains a file named readme, which holds the password for the next level. You need to locate it.
+- **Why This Step is Important**: Bandit Level 0 contains a file named readme, which holds the password for the next level. You need to locate it.
 
 **How to Do It**:
 
 :white_check_mark:**Run the command: ls**
 
 
-**ls**: This is the command used to list files and directories in your current working directory.
+- **ls**: This is the command used to list files and directories in your current working directory.
 
 
 ### Step 2: Read the Contents of the readme File
 
-**Objective**: Open and view the contents of the readme file to find the password for the next level.
+- **Objective**: Open and view the contents of the readme file to find the password for the next level.
 
-**Why This Step is Important**: The password for the next level is stored inside the readme file. You need to read it to continue to the next step in the game.
+- **Why This Step is Important**: The password for the next level is stored inside the readme file. You need to read it to continue to the next step in the game.
 
 **How to Do It**:
 
 :white_check_mark:**Run the command: cat**
 
 
-**cat**: This command is used to display the contents of a file. It stands for "concatenate" and is commonly used to view text files in Linux.
+- **cat**: This command is used to display the contents of a file. It stands for "concatenate" and is commonly used to view text files in Linux.
 
 
 **Expected Outcome**: The content of the readme file will be shown, which is the password for the next level. For Level 1, the password will be displayed directly in the terminal.
 
 ### Step 3: Log Out 
 
-**Objective**: After obtaining the password, it's a good practice to log out of the server and end your session.
+- **Objective**: After obtaining the password, it's a good practice to log out of the server and end your session.
 
-**Why This Step is Important**: Logging out is a good habit in any system, ensuring that no one else can access your session.
+- **Why This Step is Important**: Logging out is a good habit in any system, ensuring that no one else can access your session.
 
 **How to Do It**:
 
@@ -85,7 +85,11 @@ Once logged in, you will be in the **home directory** of bandit0.
 
 
 
+
+
 🔑Password : **ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If**
+
+
 
 
 

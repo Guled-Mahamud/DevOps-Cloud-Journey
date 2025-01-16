@@ -75,15 +75,20 @@ The file should tell you the compression format **(gzip, bzip2, tar, etc.).**
 Based on the file type, use the appropriate decompression tool:
 
 
-If it's a .gz file, use gunzip: **mv /tmp/<your_tmp_directory>/myfile /tmp/<your_tmp_directory>/myfile.gz**
+If it's a .gz file, use gunzip:
+-  **mv /tmp/<your_tmp_directory>/myfile /tmp/<your_tmp_directory>/myfile.gz**
 
-**gunzip /tmp/<your_tmp_directory>/myfile.gz**
-
-
-If it's a .tar file, use tar: **tar -xf /tmp/<your_tmp_directory>/myfile.tar**
+- **gunzip /tmp/<your_tmp_directory>/myfile.gz**
 
 
-If it's a .bz2 file, use bzip2: **bzip2 -d /tmp/<your_tmp_directory>/myfile.bz2**
+If it's a .tar file, use tar: 
+
+- **tar -xf /tmp/<your_tmp_directory>/myfile.tar**
+
+
+If it's a .bz2 file, use bzip2:
+
+-  **bzip2 -d /tmp/<your_tmp_directory>/myfile.bz2**
 
 
 

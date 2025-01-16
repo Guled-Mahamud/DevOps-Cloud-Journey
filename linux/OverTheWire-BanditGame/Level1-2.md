@@ -46,7 +46,7 @@ After logging in, check the files in the home directory to locate the file named
 :white_check_mark:**Run the command: ls**
 
 
-**ls**: Lists all files in the current directory. You should see a file named -.
+- **ls**: Lists all files in the current directory. You should see a file named -.
 
 
 
@@ -58,9 +58,9 @@ Files with special names like - can cause confusion because - is often treated a
 :white_check_mark:**Run the command: cat ./-**
 
 
-**cat**: Reads and displays the contents of a file.
+- **cat**: Reads and displays the contents of a file.
 
-**./-**: The **./** tells the system to treat - as a file in the current directory, not as a command option.
+- **./-**: The **./** tells the system to treat - as a file in the current directory, not as a command option.
 
 The output will display the password for Level 2.
 

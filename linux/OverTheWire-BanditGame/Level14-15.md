@@ -51,11 +51,11 @@ Use the **nc (Netcat)** command to connect to port **30000 on localhost**.
 
 **Explanation:**
 
-**nc:** A versatile tool for reading from and writing to network connections.
+- **nc:** A versatile tool for reading from and writing to network connections.
 
-**localhost:** Refers to the local machine (the Bandit server in this case).
+- **localhost:** Refers to the local machine (the Bandit server in this case).
 
-**30000:** The port to which you are connecting.
+- **30000:** The port to which you are connecting.
 
 
 

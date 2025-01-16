@@ -57,11 +57,11 @@ Use the **nmap** command to scan for open ports in the **range 31000–32000** o
 
 **Explanation**:
 
-**nmap**: Scans the network to discover open ports.
+- **nmap**: Scans the network to discover open ports.
 
-**-p 31000-32000**: Specifies the range of ports to scan.
+- **-p 31000-32000**: Specifies the range of ports to scan.
 
-**localhost**: Refers to the local machine (the Bandit server).
+- **localhost**: Refers to the local machine (the Bandit server).
 
 
 The output will list the ports that have servers listening.
@@ -81,9 +81,9 @@ Replace <port> with the port number from the previous step
 **Explanation**:
 
 
-**openssl s_client**: A tool to test SSL/TLS connections.
+- **openssl s_client**: A tool to test SSL/TLS connections.
 
-**-connect localhost**:<port>: Attempts to connect to the specified port using SSL/TLS.
+- **-connect localhost**:<port>: Attempts to connect to the specified port using SSL/TLS.
 
 If the server supports **SSL/TLS**, you will see **SSL handshake** information in the output. Otherwise, the connection will fail.
 

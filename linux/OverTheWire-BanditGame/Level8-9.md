@@ -56,7 +56,9 @@ To identify the unique line, start by sorting the lines in the file.
 :white_check_mark: **Run the command: sort data.txt**
 
 
-**Explanation**: **sort data.txt** Arranges the lines in alphabetical order, grouping identical lines together.
+**Explanation**: 
+
+- **sort data.txt** Arranges the lines in alphabetical order, grouping identical lines together.
 
 
 
@@ -69,11 +71,11 @@ After sorting the file, use the **uniq -u** command to filter out the lines that
 :white_check_mark: **Run the command: sort data.txt | uniq -u**
 
 
-Explanation:
+**Explanation**:
 
-**sort data.txt**: Groups identical lines together.
-**|:**  Pipes the sorted output into the next command.
-**uniq -u**: Displays only the lines that occur once in the input.
+- **sort data.txt**: Groups identical lines together.
+- **|:**  Pipes the sorted output into the next command.
+- **uniq -u**: Displays only the lines that occur once in the input.
 
 
 **Expected Output:**

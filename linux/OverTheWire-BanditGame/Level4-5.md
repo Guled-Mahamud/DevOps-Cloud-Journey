@@ -50,7 +50,9 @@ Once connected, navigate to the **inhere** directory where the files are stored.
 
 :white_check_mark:**Run the command: cd inhere**
 
-**Explanation**: **cd inhere** Changes the current directory to inhere.
+**Explanation**: 
+
+- **cd inhere** Changes the current directory to inhere.
 
 
 

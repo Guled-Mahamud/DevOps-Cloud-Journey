@@ -49,9 +49,9 @@ Connect to the server on port 30001 using the openssl s_client command to establ
 
 
 
-**openssl s_client**: A tool used to interact with SSL/TLS-enabled services.
+- **openssl s_client**: A tool used to interact with SSL/TLS-enabled services.
 
-**-connect localhost:30001**: Specifies the host (localhost) and port (30001) to connect to using SSL/TLS.
+- **-connect localhost:30001**: Specifies the host (localhost) and port (30001) to connect to using SSL/TLS.
 
 
 

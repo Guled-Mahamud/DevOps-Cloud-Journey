@@ -61,11 +61,11 @@ To decode the **Base64-encoded** text, use the base64 command with the **-d (dec
 
 **Explanation**:
 
-**cat data.txt**: Displays the content of the file.
+- **cat data.txt**: Displays the content of the file.
 
-**|: Pipes** the output of cat as input to the next command.
+- **|: Pipes** the output of cat as input to the next command.
 
-**base64 -d**: Decodes the Base64-encoded data.
+- **base64 -d**: Decodes the Base64-encoded data.
 
 
 **Expected Output**:

@@ -59,11 +59,11 @@ The **private key** allows you to log in as the bandit14 user without needing a 
 
 **Explanation**: 
 
-**ssh**: Command to establish an SSH connection.
+- **ssh**: Command to establish an SSH connection.
 
-**-i sshkey.private**: Specifies the private key file to use for authentication.
+- **-i sshkey.private**: Specifies the private key file to use for authentication.
 
-**bandit14@localhost**: Logs into the user bandit14 on the local machine (localhost).
+- **bandit14@localhost**: Logs into the user bandit14 on the local machine (localhost).
 
 
 

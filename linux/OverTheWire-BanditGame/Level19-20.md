@@ -77,11 +77,11 @@ Use **Netcat (nc)** to start a server that listens on a port of your choice (e.g
 
 **Explanation**:
 
-**nc** : Starts Netcat.
+- **nc** : Starts Netcat.
 
-**-l** : Enables listening mode.
+- **-l** : Enables listening mode.
 
-**-p 12345**: Specifies the port to listen on (you can use any unused port).
+- **-p 12345**: Specifies the port to listen on (you can use any unused port).
 
 
 
@@ -96,9 +96,9 @@ In a second terminal, connect to the same server and execute the setuid binary, 
 
 **Explanation**:
 
-**./bandit20-do** : Executes the binary.
+- **./bandit20-do** : Executes the binary.
 
-**12345** : Specifies the port to connect to (the one your server is listening on).
+- **12345** : Specifies the port to connect to (the one your server is listening on).
 
 
 ### Step 6: Provide the Current Password
@@ -110,7 +110,7 @@ When the binary connects to the server **(via Netcat)**, it waits for input. Pro
 **In the Netcat terminal, type: csharp**
 
 
-**[**cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8**]
+[**cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8**]
 
 Press Enter after typing the password.
 
@@ -150,11 +150,11 @@ After retrieving the password, log out from the server.
 
 **This level tests your understanding of**:
 
-:arrow_right: Inter-process communication: The binary connects to a local server (your Netcat instance).
+:arrow_right: **Inter-process communication**: The binary connects to a local server (your Netcat instance).
 
-:arrow_right: Setuid binaries: These run with elevated permissions, allowing you to retrieve sensitive information.
+:arrow_right: **Setuid binaries**: These run with elevated permissions, allowing you to retrieve sensitive information.
 
-:arrow_right: Networking basics: Setting up and managing local servers and connections.
+:arrow_right: **Networking basics**: Setting up and managing local servers and connections.
 
 :arrow_right:By combining these tools and concepts, you can simulate a networked interaction and retrieve the next password effectively.
 
