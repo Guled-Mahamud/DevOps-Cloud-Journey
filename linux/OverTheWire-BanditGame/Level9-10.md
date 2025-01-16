@@ -79,6 +79,12 @@ You will see a line containing the password preceded by = characters.
 From the filtered output, identify the password (the text following the = characters). Copy it for use in the next level.
 
 
+
+🔑 Password for Level 10: **FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey**
+
+
+
+
 ### Step 5: Log Out
 
 After retrieving the password, log out from the server.
@@ -98,7 +104,7 @@ After retrieving the password, log out from the server.
 
 
 
-🔑 Password for Level 10: **4CKMh1JI91bUIZZPXDqGanal4xvAg0JM**
+
 
 
 

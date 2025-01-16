@@ -74,6 +74,10 @@ To decode the text, use the tr command to perform **ROT13** transformation. **RO
 After decoding, the plain text password will be shown in your terminal. It will look something like: **7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4**
 
 
+🔑 Password for Level 12: **7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4**
+
+
+
 ### Step 4: Log Out
 
 After retrieving the password, log out from the server.
@@ -94,7 +98,7 @@ After retrieving the password, log out from the server.
 
 
 
-🔑 Password for Level 12: **7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4**
+
 
 
 

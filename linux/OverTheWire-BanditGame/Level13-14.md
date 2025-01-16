@@ -79,6 +79,11 @@ Once logged in as bandit14, read the password stored in **/etc/bandit_pass/bandi
 
 
 
+🔑 Password for Level 14: **MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS**
+
+
+
+
 ## Step 5: Log Out
 After retrieving the password, log out from the bandit14 account and then from the Bandit server.
 
@@ -102,7 +107,7 @@ After retrieving the password, log out from the bandit14 account and then from t
 :five: **exit**: Log out from the server.
 
 
-🔑 Password for Level 14: MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
+
 
 
 

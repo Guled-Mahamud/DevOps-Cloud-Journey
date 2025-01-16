@@ -85,6 +85,9 @@ Once logged in, you will be in the **home directory** of bandit0.
 
 
 
+🔑Password : **ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If**
+
+
 
 ## :round_pushpin: Key commands for the password
 
@@ -94,7 +97,7 @@ Once logged in, you will be in the **home directory** of bandit0.
 :two:**cat**: View the contents of a file.
 
 
-🔑Password : **ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If**
+
 
 
 

@@ -76,6 +76,8 @@ After retrieving the password, end your session by logging out.
 
 
 
+🔑 Password for Level 3: **263JGJPfgU6LtdEvgfWU1XP5yac29mFx**
+
 
 
 
@@ -87,7 +89,7 @@ After retrieving the password, end your session by logging out.
 
 :three:**cat "filename" or cat filename\ with\ spaces**: Read files with spaces in their names.
 
-🔑 Password for Level 3: **263JGJPfgU6LtdEvgfWU1XP5yac29mFx**
+
 
 
 ### 🔎 Thought Process

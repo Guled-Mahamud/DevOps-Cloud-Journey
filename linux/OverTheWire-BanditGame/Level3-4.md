@@ -83,6 +83,11 @@ After retrieving the password, log out of the server to complete this level.
 
 
 
+🔑 Password for Level 4: **2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ**
+
+
+
+
 ### :round_pushpin: Key Commands Recap
 
 :one: **SSH**: Connect to the server securely.

@@ -53,19 +53,19 @@ Next, create a working directory under **/tmp** using the mktemp command: **mkte
 
 ### Step 2: Copy the File
 
-Copy the data.txt file into the temporary directory you just created:** cp /home/bandit12/data.txt /tmp/<your_tmp_directory>**
+Copy the data.txt file into the temporary directory you just created:**cp /home/bandit12/data.txt /tmp/<your_tmp_directory>**
 
 
 
 ### Step 3: Reverse the Hexdump
 
 
-The file you copied is a hexdump. Use the xxd command to reverse it back into its original binary form: xxd -r /tmp/<your_tmp_directory>/data.txt > /tmp/<your_tmp_directory>/myfile
+The file you copied is a hexdump. Use the xxd command to reverse it back into its original binary form: **xxd -r /tmp/<your_tmp_directory>/data.txt > /tmp/<your_tmp_directory>/myfile**
 
 
 ### Step 4: Identify the Compression Format
 
-Now that you have the original file, use the file command to determine what kind of compression has been applied: file /tmp/<your_tmp_directory>/myfile
+Now that you have the original file, use the file command to determine what kind of compression has been applied: **file /tmp/<your_tmp_directory>/myfile**
 
 The file should tell you the compression format **(gzip, bzip2, tar, etc.).**
 
@@ -75,9 +75,9 @@ The file should tell you the compression format **(gzip, bzip2, tar, etc.).**
 Based on the file type, use the appropriate decompression tool:
 
 
-If it's a .gz file, use gunzip: **mv /tmp/<your_tmp_directory>/myfile /tmp/<your_tmp_directory>/myfile.gz
+If it's a .gz file, use gunzip: **mv /tmp/<your_tmp_directory>/myfile /tmp/<your_tmp_directory>/myfile.gz**
 
-gunzip /tmp/<your_tmp_directory>/myfile.gz**
+**gunzip /tmp/<your_tmp_directory>/myfile.gz**
 
 
 If it's a .tar file, use tar: **tar -xf /tmp/<your_tmp_directory>/myfile.tar**

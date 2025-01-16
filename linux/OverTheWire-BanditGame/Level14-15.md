@@ -32,7 +32,8 @@ The goal is to retrieve the password for Bandit15 by submitting the current leve
 
 Start by connecting to the Bandit server using SSH with the Bandit14 username and the password from the previous level.
 
-:white_check_mark: ""Run the command: ssh bandit14@bandit.labs.overthewire.org -p 2220""
+
+:white_check_mark: **Run the command: ssh bandit14@bandit.labs.overthewire.org -p 2220**
 
 
 When prompted, enter the password you retrieved from the previous level.
@@ -67,6 +68,10 @@ After connecting to the port, paste the password for Bandit14 and press Enter.
 
 
 
+🔑 Password for Level 15: **8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo**
+
+
+
 ### Step 4: Log Out
 
 After retrieving the password, end your session by logging out.
@@ -87,7 +92,7 @@ After retrieving the password, end your session by logging out.
 
 
 
-🔑 Password for Level 15: **8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo**
+
 
 
 

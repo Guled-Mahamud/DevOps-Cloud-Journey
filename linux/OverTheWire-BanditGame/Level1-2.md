@@ -74,6 +74,11 @@ Once you have the password, log out of the server to end your session.
 
 
 
+🔑 Password for Level 2: **ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If**
+
+
+
+
 ### :round_pushpin:Key Commands Recap
 
 :one:**SSH**: Connect to the server securely.
@@ -82,7 +87,7 @@ Once you have the password, log out of the server to end your session.
 
 :three:**cat** ./-: Read a file with a tricky name like -.
 
-🔑 Password for Level 2: **ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If**
+
 
 
 

@@ -61,6 +61,10 @@ After retrieving the password, log out from the server.
 :white_check_mark: **Run the command: exit**
 
 
+🔑 Password for Level 8: dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+
+
+
 
 ### :round_pushpin: Key Commands Recap
 
@@ -71,7 +75,6 @@ After retrieving the password, log out from the server.
 
 
 
-🔑 Password for Level 8: dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 
 
 

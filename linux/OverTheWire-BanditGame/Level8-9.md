@@ -82,6 +82,9 @@ Explanation:
 The unique line will be displayed, which is the password for Level 9.
 
 
+🔑 Password for Level 9: **4CKMh1JI91bUIZZPXDqGanal4xvAg0JM**
+
+
 
 ### Step 5: Log Out
 
@@ -105,7 +108,7 @@ After retrieving the password, log out from the server.
 
 
 
-🔑 Password for Level 9: **4CKMh1JI91bUIZZPXDqGanal4xvAg0JM**
+
 
 
 

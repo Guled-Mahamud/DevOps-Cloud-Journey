@@ -101,11 +101,18 @@ Once you have confirmed the correct file, use the cat command to read its conten
 After retrieving the password, log out of the server to complete this level.
 
 :white_check_mark: **Run the command: exit**
-Explanation:
+
+
+
+
+🔑 Password for Level 6: **HWasnPhtq9AVKe0dmk45nxy20cvUa6EG**
+
+
 
 
 
 ### :round_pushpin: Key Commands Recap
+
 
 
 :one: **SSH**: Connect to the server securely.
@@ -122,7 +129,8 @@ size and permissions.
 :six: **cat ./filename**: Read the contents of the file.
 
 
-🔑 Password for Level 6: **HWasnPhtq9AVKe0dmk45nxy20cvUa6EG**
+
+
 
 
 

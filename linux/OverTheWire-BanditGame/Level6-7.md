@@ -72,6 +72,11 @@ Once you have the file path, use the cat command to view its contents and retrie
 **Expected Output**: The password for Level 7 will be displayed.
 
 
+🔑 Password for Level 7: **morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj**
+
+
+
+
 ### Step 4: Log Out
 
 After retrieving the password, log out from the server.
@@ -92,7 +97,7 @@ After retrieving the password, log out from the server.
 :three: **exit**: Logs out from the Bandit server.
 
 
-🔑 Password for Level 7: **morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj**
+
 
 
 

@@ -73,6 +73,11 @@ To decode the **Base64-encoded** text, use the base64 command with the **-d (dec
 The decoded text will display the password for Level 11.
 
 
+
+🔑 Password for Level 11: **dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr**
+
+
+
 ### Step 4: Log Out
 
 After retrieving the password, log out from the server.
@@ -92,7 +97,6 @@ After retrieving the password, log out from the server.
 
 
 
-🔑 Password for Level 11: **dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr**
 
 
 
