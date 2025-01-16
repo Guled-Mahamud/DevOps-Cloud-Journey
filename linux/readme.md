@@ -9,3 +9,7 @@ Linux is an operating system that is free, open-source, and widely used in serve
 Learning Linux includes understanding basic commands like creating files, moving them, and checking system status. You’ll learn how to manage user accounts, permissions, and file systems. Networking commands, process management, and scripting with Bash are also part of it. These skills are essential for troubleshooting, automating tasks, and managing servers.
 
 Linux is the foundation for most cloud and DevOps work, making it an important step in my learning journey to becoming a DevOps/Cloud Engineer.
+
+
+
+![alt text](image.png)
