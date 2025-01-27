@@ -1,8 +1,11 @@
+# Backup Script - Create a script that copies all .txt files from a specified directory to a backup directory. If the backup directory doesn’t exist, the script should create it first. 
+
+
+
+
 #!/bin/bash
 
- # Backup Script - Create a script that copies all .txt files from a specified directory to a backup directory. If the backup directory doesn’t exist, the script should create it first. 
-
-
+ 
 
 echo "Enter the directory to backup .txt files from:"
 read source_directory
