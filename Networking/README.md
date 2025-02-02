@@ -1,4 +1,4 @@
-# Networking  	:desktop_computer: :orange_book:
+# Networking  	
 
 
 In computing, networking refers to the practice of connecting computers, devices, or systems together to share resources, data, and enable communication. This can involve both local and wide area networks, and it's a crucial part of how the internet and other communication systems function. Networking enables devices to communicate, share files, access the internet, and perform a variety of other tasks.

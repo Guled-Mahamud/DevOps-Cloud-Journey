@@ -10,13 +10,12 @@
 
 
 
-
-
-
 #!/bin/bash
 
 
-cd "$(dirname "$0")" || exit 1  # ensures the script runs from its location, regardless of how it’s called
+cd "$(dirname "$0")" || exit 1  
+
+# ensures the script runs from its location, regardless of how it’s called
 
 
 mkdir -p Battlefield

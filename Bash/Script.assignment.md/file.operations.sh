@@ -3,14 +3,18 @@
 
 #!/bin/bash
 
-
+# Creating a directory named MyDirectory
 mkdir MyDirectory
-
+# Change the current working directory to 'MyDirectory'
 cd MyDirectory
-
+# Create a new text file named 'test'
 touch test.txt
 
+# Write a string "Hello, here is test file." into 'test.txt'
 echo "Hello, here is the test file." > test.txt
 
-echo "Contents of myfile.txt:"
-cat myfile.txt
+# Display a message to indicate the contents of the file
+echo "Contents of test.txt:"
+
+# Use the 'cat' command to display the contents of 'test.txt'
+cat test.txt
