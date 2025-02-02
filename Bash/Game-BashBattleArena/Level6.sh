@@ -6,15 +6,12 @@
 
 #!/bin/bash
 
-if [ -z "$1"]; then
-  echo "no file provided"
-  exit 1
-fi 
+file=$1
 
-if [! -f "$1" ]; then
- echo "File not found!"
- exit 1
+if [ -z "$1" ]; then
+  echo "No file provided"
+  exit 1
 fi
 
-LINE_COUNT=$(wc -l , "$1")
-  echo "The file '$1' has $LINE_COUNT lines."
+# Count and print the number of lines
+wc -l < "$1"
