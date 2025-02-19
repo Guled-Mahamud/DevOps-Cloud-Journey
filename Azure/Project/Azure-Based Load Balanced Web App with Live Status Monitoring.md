@@ -143,20 +143,8 @@ I ran the following command to request and install the SSL certificate for `app.
     
     Follow the prompts to verify ownership of the domain. Certbot automatically configures NGINX to use the SSL certificate.
     
-3. **Force HTTP to HTTPS Redirection**:
-I added a 301 redirect rule to the NGINX config to redirect HTTP requests to HTTPS:
     
-    ```
-    
-    server {
-        listen 80;
-        server_name app.guled.co.uk;
-        return 301 https://$host$request_uri;
-    }
-    
-    ```
-    
-4. **Restart NGINX to Apply Changes**:
+3. **Restart NGINX to Apply Changes**:
     
     ```bash
     
