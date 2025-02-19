@@ -1,0 +1,200 @@
+# Hello_Flask
+
+Here's a basic **Hello Flask** application in Python:
+
+
+
+```
+# Initialize a Flask application
+app = Flask(__name__)
+
+@app.route('/')  # Define a route for the root URL
+def hello_world():
+    """
+    Function that handles requests to the root URL ("/").
+    It connects to a MySQL database, retrieves the MySQL version, and displays it.
+    """
+
+    # Connect to the MySQL database
+    db = MySQLdb.connect(
+        host="mydb",  # Hostname of the MySQL container (matches the service name in docker-compose)
+        user="root",  # Username to connect to MySQL
+        passwd="my-secret-pw",  # Password for the MySQL user
+        db="mysql",  # Name of the database to connect to
+    )
+
+    # Create a cursor object to interact with the database
+    cur = db.cursor()
+
+    # Execute a SQL query to get the MySQL version
+    cur.execute("SELECT VERSION()")
+
+    # Fetch the result of the query
+    version = cur.fetchone()
+
+    # Return a response displaying the MySQL version
+    return f'Hello, world! MySQL version: {version[0]}'
+
+# Run the Flask application
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5002)  # The app runs on port 5002 and is accessible from any network
+    
+   
+```
+
+1. **`app = Flask(__name__)`**
+    - This initializes a Flask application. Flask is a Python web framework used to build web applications.
+2. **`@app.route('/')`**
+    - This defines a route for the root URL (`/`). When you visit `http://localhost:5002/`, this function will handle the request.
+3. **Connecting to MySQL**
+    - The application connects to a MySQL database using the `MySQLdb` library.
+    - The `host="mydb"` refers to the MySQL container (we’ll define this in Docker Compose).
+    - The `user`, `passwd`, and `db` are the credentials and database name to connect to.
+4. **Executing a Query**
+    - The `cur.execute("SELECT VERSION()")` runs a SQL query to fetch the MySQL version.
+    - The result is fetched using `cur.fetchone()`.
+5. **Returning a Response**
+    - The application returns a string like `Hello, world! MySQL version: 8.0.30` (the actual version depends on your MySQL container).
+6. **Running the App**
+    - The app runs on `0.0.0.0` (accessible from any network) and listens on port `5002`.
+
+---
+
+## **Next Steps: Containerizing with Docker**
+
+ **Dockerfile** to containerize  **Hello Flask** application:
+
+
+
+```docker
+# Set the working directory
+WORKDIR /app
+
+# Copy application files first
+COPY . .
+
+# Install system dependencies required for mysqlclient
+RUN apt-get update && apt-get install -y \
+    default-libmysqlclient-dev \
+    build-essential \
+    python3-dev \
+    gcc \
+    libmariadb-dev \
+    pkg-config \
+    && rm -rf /var/lib/apt/lists/*  # Clean up to reduce image size
+
+# Install Python dependencies
+RUN pip install --no-cache-dir flask mysqlclient
+
+# Expose port 5002
+EXPOSE 5002
+
+# Run the application
+CMD ["python", "app.py"]
+```
+
+1. **`FROM python:3.9-slim`**
+    - This specifies the base image. Here, we’re using a lightweight Python 3.9 image.
+2. **`WORKDIR /app`**
+    - This sets the working directory inside the container to `/app`. All subsequent commands will run in this directory.
+3. **`COPY . .`**
+    - This copies all files from your local directory (where the Dockerfile is) into the `/app` directory in the container.
+4. **Installing System Dependencies**
+    - The `RUN apt-get update && apt-get install -y ...` command installs system dependencies required for the `mysqlclient` Python library (used to connect to MySQL).
+5. **Installing Python Dependencies**
+    - The `RUN pip install --no-cache-dir flask mysqlclient` command installs the Python libraries (`flask` and `mysqlclient`) required for the app.
+6. **`EXPOSE 5002`**
+    - This tells Docker that the container will listen on port `5002`. It doesn’t actually publish the port; that’s done in the `docker run` or `docker-compose` command.
+7. **`CMD ["python", "app.py"]`**
+    - This specifies the command to run when the container starts. Here, it runs the Flask app using `python app.py`.
+
+## **Building and Running the Container**
+
+1. **Build the Docker Image**
+    - The command `docker build -t hello-flask .` builds a Docker image from the Dockerfile.
+    - The `t hello-flask` tags the image with the name `hello-flask`.
+2. **Run the Container**
+    - The command `docker run -p 5002:5002 hello-flask` runs a container from the `hello-flask` image.
+    - The `p 5002:5002` maps port `5002` on your local machine to port `5002` in the container.
+    - You can now access the app at `http://localhost:5002/`.
+
+---
+
+## 
+
+---
+
+## **Create a `docker-compose.yml` File**
+
+This file defines your Flask app and its environment.
+
+```
+# Specify the version of the Docker Compose file format
+version: '3.8'
+
+# Define the services (containers) that will be run
+services:
+  # Service for the web application
+  web:
+    # Use this Docker image for the web service
+    image: 515966534900.dkr.ecr.eu-north-1.amazonaws.com/flask-mysql:latest
+    # Map port 5002 on your local machine to port 5002 in the container
+    ports:
+      - "5002:5002"
+    # Ensure the 'web' service starts only after the 'mydb' service is up and running
+    depends_on:
+      - mydb
+
+  # Service for the MySQL database
+  mydb:
+    # Use the official MySQL 8 image
+    image: mysql:8
+    # Set environment variables for the MySQL container
+    environment:
+      # Set the root password for MySQL
+      MYSQL_ROOT_PASSWORD: my-secret-pw
+```
+
+1. **`version: '3.8'`**
+    - Specifies the Docker Compose file format version.
+2. **`services:`**
+    - Defines the services (containers) to run. Here, we have two services: `web` (Flask app) and `mydb` (MySQL database).
+3. **`web:`**
+    - This is the Flask app service.
+    - `image`: Specifies the Docker image to use (in this case, a custom image from Amazon ECR).
+    - `ports`: Maps port `5002` on your local machine to port `5002` in the container.
+    - `depends_on`: Ensures the `web` service starts only after the `mydb` service is running.
+4. **`mydb:`**
+    - This is the MySQL database service.
+    - `image`: Uses the official MySQL 8 image.
+    - `environment`: Sets the MySQL root password.
+
+---
+
+## **Running with Docker Compose**
+
+1. **Start the Application**
+    - The command `docker-compose up -d` starts both the Flask app and MySQL database in detached mode (background).
+    - The `d` flag runs the containers in the background.
+2. **Check Running Containers**
+    - The command `docker ps` lists all running containers. You should see both the `web` and `mydb` containers.
+3. **Access the App**
+    - The Flask app will be accessible at `http://localhost:5002/`. It will display the MySQL version fetched from the `mydb` container.
+
+---
+
+## **Summary of the Flow**
+
+1. **Flask App**: Connects to MySQL and fetches the version.
+2. **Dockerfile**: Defines how to containerize the Flask app.
+3. **Docker Compose**: Manages both the Flask app and MySQL database as separate services.
+4. **Running**: Use `docker-compose up` to start everything.
+
+---
+
+## **Key Points to Remember**
+
+- **Dockerfile**: Used to build a container image for the Flask app.
+- **Docker Compose**: Used to manage multiple containers (Flask app + MySQL database).
+- **`depends_on`**: Ensures the Flask app starts only after the MySQL database is ready.
+- **Port Mapping**: Maps container ports to your local machine for access.
